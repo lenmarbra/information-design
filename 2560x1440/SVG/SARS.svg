@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7256.69 4081.89"><defs>
+  <linearGradient id="b" x1="2644.13" y1="-1247.78" x2="2470.24" y2="-1247.78" gradientTransform="matrix(0 1 1 0 2963.94 -212.06)" gradientUnits="userSpaceOnUse"><stop offset=".22" stop-color="#fbdde1" stop-opacity=".5"/><stop offset=".56" stop-color="#fbdbdf" stop-opacity=".51"/><stop offset=".69" stop-color="#fad2d8" stop-opacity=".54"/><stop offset=".78" stop-color="#f8c4cb" stop-opacity=".59"/><stop offset=".85" stop-color="#f6b0b9" stop-opacity=".67"/><stop offset=".91" stop-color="#f295a2" stop-opacity=".77"/><stop offset=".96" stop-color="#ee7586" stop-opacity=".89"/><stop offset="1" stop-color="#eb586d"/>
+  </linearGradient><linearGradient id="a" x1="4058.48" y1="2257.64" x2="4182.39" y2="2257.64" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fce3e2"/><stop offset=".97" stop-color="#ec5c70"/><stop offset="1" stop-color="#eb586d"/></linearGradient>
+  <linearGradient id="c" x1="4057.98" y1="2257.64" x2="4182.89" y2="2257.64" xlink:href="#a"/>
+  <linearGradient id="d" x1="6492.64" y1="2221.09" x2="6620.52" y2="2221.09" xlink:href="#a"/></defs>
+  <g style="isolation:isolate">
+    <path d="M2963.09 2258.18c-271.58 0-707.37 10.22-1093.37 57.81-130.58 16.1-335.71 70.71-431.16 84.8-285.29 42.11-693.62 29.52-969.33 29.52v-172.13h2493.86" style="mix-blend-mode:multiply" fill="url(#b)"/>
+    <circle cx="4120.43" cy="2257.64" r="118.7" fill="#eb586d" opacity=".1"/>
+    <path d="M4120.43 2257.64v-61.95a62 62 0 11-62 61.95 62 62 0 0162-61.95h0z" stroke-miterlimit="10" opacity=".9" fill="url(#a)" stroke="url(#c)"/>
+    <path fill="none" stroke="#00586c" stroke-width="18" d="M4502.55 2258.18h-382.12"/>
+    <path d="M6492.64 2253.06a63.94 63.94 0 01127.88 0" fill="url(#d)"/>
+  </g>
+</svg>

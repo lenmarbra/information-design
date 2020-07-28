@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+:root{
+  --red: #eb586d;
+  --white: #f5f5f5;
+  --green: #00586c;
+  --txt-grey: #878787;
+  --line-grey: #cdcccc;
+  font-family: 'decimamonow01-regularregular','Akzidenz-Grotesk BQ medium', Arial, Helvetica, sans-serif;
+}
+  @font-face {
+  font-family: 'decimamonow01-regularregular';
+  src: url(font/decima_mono_w01_regular-webfont.woff2) format('woff2'),
+       url(font/decima_mono_w01_regular-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  width: 100vp;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #ffffff;
+}
+p{
+  font-family: 'decimamonow01-regularregular','Akzidenz-Grotesk BQ medium', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--green)
+}
+#legend{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 20%;
+  /* background-color: var(--line-grey); */
+  opacity: 0;
+}
+#years{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 96.5%;
+  margin: 1em;
+  text-align: center;
+}
+#headers p{
+  font-size: 12px;
+  margin-top: 0.5em;
+  color: var(--txt-grey);
+}
+#disease-header{
+  position: absolute;
+  top: 0;
+  left: 52.4em;
+}
+#fatility-header{
+  position: absolute;
+  top: 0;
+  left: 69.2em;
+  width: 20em;
+}
+#news-header{
+  position: absolute;
+  top: 0;
+  left: 95.2em;
+  width: 20em;
+}
+ul{
+  list-style: none;
+}
+#years p{
+  font-size: 12px;
+  margin-top: 0.5em;
+  color: var(--txt-grey);
+}
+.tl-years{
+  position: absolute;
+  top: -0.5em;
+  left: 1.5em;
+}
+.tl-years li{
+  margin-top: 5.46em;
+  font-size: 12px;
+  color: var(--green)
+}
+
+/* --------AIDS-text--------- */
+.aids-text .infection{
+  position: absolute;
+  top: 7.38em;
+  left: 53.5em;
+  font-size: 12px;
+}
+.aids-text .inf-ness{
+  position: absolute;
+  top: 9.2em;
+  left: 77em;
+  font-size: 10px;
+  color: var(--red)
+}
+.aids-text .fatility-rate{
+  position: absolute;
+  top: 9.15em;
+  left: 82.8em;
+  font-size: 10px;
+}
+.aids-text .news{
+  position: absolute;
+  top: 9.1em;
+  left: 132.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------SARS-text---------- */
+.sars-text .infection{
+  position: absolute;
+  top: 35.30em;
+  left: 53.5em;
+  font-size: 12px;
+}
+.sars-text .inf-ness{
+  position: absolute;
+  top: 42.9em;
+  left: 77em;
+  font-size: 10px;
+  color: var(--red)
+}
+.sars-text .fatility-rate{
+  position: absolute;
+  top: 42.9em;
+  left: 89em;
+  font-size: 10px;
+}
+.sars-text .news{
+  position: absolute;
+  top: 42.5em;
+  left: 132.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------SWINE FLU-text---------- */
+.swineflu-text .infection{
+  position: absolute;
+  top: 44.7em;
+  left: 53.5em;
+  font-size: 12px;
+}
+.swineflu-text .inf-ness{
+  position: absolute;
+  top: 53.9em;
+  left: 77em;
+  font-size: 10px;
+  color: var(--red)
+}
+.swineflu-text .fatility-rate{
+  position: absolute;
+  top: 53.9em;
+  left: 82em;
+  font-size: 10px;
+}
+.swineflu-text .news{
+  position: absolute;
+  top: 53.9em;
+  left: 132.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------CHOLERA-text---------- */
+.cholera-text .infection{
+  position: absolute;
+  top: 46.1em;
+  left: 53.5em;
+  font-size: 12px;
+}
+.cholera-text .inf-ness{
+  position: absolute;
+  top: 51.7em;
+  left: 77em;
+  font-size: 10px;
+  color: var(--red)
+}
+.cholera-text .fatility-rate{
+  position: absolute;
+  top: 55.7em;
+  left: 84em;
+  font-size: 10px;
+}
+.cholera-text .news{
+  position: absolute;
+  top: 55.8em;
+  left: 132.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------MERS-text---------- */
+.mers-text .infection{
+  position: absolute;
+  top: 48.8em;
+  left: 53.2em;
+  font-size: 12px;
+}
+.mers-text .inf-ness{
+  position: absolute;
+  top: 59em;
+  left: 77.4em;
+  font-size: 10px;
+  color: var(--red)
+}
+.mers-text .fatility-rate{
+  position: absolute;
+  top: 60.4em;
+  left: 117em;
+  font-size: 10px;
+}
+.mers-text .news{
+  position: absolute;
+  top: 61.2em;
+  left: 136.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------EBOLA-text---------- */
+.ebola-text .infection{
+  position: absolute;
+  top: 52.1em;
+  left: 53.2em;
+  font-size: 12px;
+}
+.ebola-text .inf-ness{
+  position: absolute;
+  top: 63.1em;
+  left: 77.4em;
+  font-size: 10px;
+  color: var(--red)
+}
+.ebola-text .fatility-rate{
+  position: absolute;
+  top: 58.9em;
+  left: 107.5em;
+  font-size: 10px;
+}
+.ebola-text .news{
+  position: absolute;
+  top: 62.9em;
+  left: 136.8em;
+  font-size: 10px;
+  color: var(--red)
+}
+/* ----------COVID-text---------- */
+.covid-text .infection{
+  position: absolute;
+  top: 59.5em;
+  left: 53.2em;
+  font-size: 12px;
+}
+.covid-text .inf-ness{
+  position: absolute;
+  top: 63.1em;
+  left: 77.4em;
+  font-size: 10px;
+  color: var(--red)
+}
+.covid-text .fatility-rate{
+  position: absolute;
+  top: 71em;
+  left: 103em;
+  font-size: 10px;
+}
+.covid-text .news{
+  position: absolute;
+  top: 70.5em;
+  left: 132.8em;
+  font-size: 10px;
+  color: var(--red)
+}
